@@ -1,0 +1,37 @@
+{
+	"name": "Databricks Cost",
+	"children": [
+		{
+			"name": "interactive",
+			"children": [
+				{"name": "chendon", "size": 150},
+				{"name": "jsterling", "size": 15},
+				{"name": "rneal", "size": 5},
+				{"name": "cbarbura", "size": 130}
+			]
+		},
+		{
+			"name": "scheduled",
+			"children": [
+				{
+					"name": "DB Jobs",
+					"children": [
+						{"name": "az_cons_daily", "cost": 12},
+						{"name": "transaction_daily", "cost": 340},
+						{"name": "reco_refresh_daily", "cost": 235},
+						{"name": "forecast_training", "cost": 205}
+					]
+				},
+				{
+					"name": "ADF Jobs",
+					"children": [
+						{"name": "marketing_dashboard", "cost":105},
+						{"name": "merchant_scorecard", "cost":90},
+						{"name": "labor_dashboard", "cost":53}
+					]
+				}
+			]
+		}
+	]
+	
+}
