@@ -1,0 +1,33 @@
+[
+{
+	"name": "interactive",
+	"children": [
+		{"name": "chendon", "size": 150},
+		{"name": "jsterling", "size": 15},
+		{"name": "rneal", "size": 5},
+		{"name": "cbarbura", "size": 130}
+	]
+},
+{
+	"name": "scheduled",
+	"children": [
+		{
+			"name": "DB Jobs",
+			"children": [
+				{"name": "az_cons_daily", "size": 12},
+				{"name": "transaction_daily", "size": 340},
+				{"name": "reco_refresh_daily", "size": 235},
+				{"name": "forecast_training", "size": 205}
+			]
+		},
+		{
+			"name": "ADF Jobs",
+			"children": [
+				{"name": "marketing_dashboard", "size":105},
+				{"name": "merchant_scorecard", "size":90},
+				{"name": "labor_dashboard", "size":53}
+			]
+		}
+	]
+}
+]
